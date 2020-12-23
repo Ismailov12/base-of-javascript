@@ -86,4 +86,4 @@ if(personalMovieDB.count < 10) {
     console.log("ERROR");
 }
 
-console.log(personcycleLigatureDebugcycleLigatureDebugalMovieDB);
+console.log(personalMovieDB);
