@@ -211,17 +211,18 @@
 
 
 /*** BASICS OF OOP AND PROTOTYPE-ORIENTED INHERITANCE ***/
-const soldiers = {
-    health: 100,
-    damage: 120,
-    attackEnemy: function() {
-        console.log("You killed your enemy");
-    }
-}
+// const soldiers = {
+//     health: 100,
+//     damage: 120,
+//     attackEnemy: function() {
+//         console.log("You killed your enemy");
+//     }
+// }
 
- const user = {};
+//  const user = {};
 
+// // console.log(user.attackEnemy());
+
+// Object.setPrototypeOf(user, soldiers);
 // console.log(user.attackEnemy());
 
-Object.setPrototypeOf(user, soldiers);
-console.log(user.attackEnemy());
