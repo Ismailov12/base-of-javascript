@@ -1,7 +1,23 @@
 .box {
-    width: 150px;
-    height: 150px;
-    background-color: red;
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    top: 0;
+    left: 100px; 
+  }
+
+  @keyframes box {
+    from {
+        top: 0;
+        left: 100px;
+    }
+    to {
+        top: 500px;
+        left: 100px;
+        background-color: blue;
+        opacity: 0;
+    }
   }
   button {
       width: 80px;
