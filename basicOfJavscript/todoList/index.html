@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='index.js'></script>
+    <title>Todo list</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .list-item {
+            list-style-type: none;
+        }
+        .add {
+            padding: 20px;
+        }
+        .item-todo {
+            padding: 1rem;
+        }
+        .list-item {
+            margin: 1rem;
+        }
+
+    </style>
+    <header>
+        <form class="add">
+            <input type="text" placeHolder='Write your todo' class="inpt">
+            <input type="search" name="search" id="search">
+            <button>Add todoList</button>
+            <ul class='item-todo'>
+                <li class="list-item"></li>
+                <button class='del'>delete</button>
+                <button class='impr'>important</button>
+
+            </ul>
+        </form>
+
+    </header>
+</body>
+
+</html>
