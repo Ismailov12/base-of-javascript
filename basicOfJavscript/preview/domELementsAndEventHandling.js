@@ -1,4 +1,4 @@
-                /*** EVENT HANDLING ***/
+/*** EVENT HANDLING ***/
 
 // const btn = document.querySelectorAll('button'),
 //     overlay = document.querySelector('.overlay'),
@@ -8,30 +8,24 @@
 
 // let zero = document.querySelector(".zero");
 
-
 // let i = 0;
 // // btn.addEventListener('mouseenter', () => {
 // //     console.log("Hello");
 // // });
-
 
 // const delElem = (e) => {
 //     console.log(e.target);
 //     console.log(e.type);
 // };
 
-
 // function add(e) {
 //     e.target.value = i++;
 // }
-
- 
 
 // incr.addEventListener("click", );
 
 // decr.addEventListener('click', );
 
- 
 // btn.addEventListener('click', delElem);
 // overlay.addEventListener('click', delElem);
 // href.addEventListener('click', (e) => {
@@ -39,15 +33,13 @@
 //     console.log(e.target);
 // });
 
-
-// let matematikaXimiyaFizika = "11 topics";
+// let matematikaXimiya = "11 topics";
 
 // ozbek tilini soxada qollash = 9topics
 
 // ingliz tili = 5topics
 
 // c++ = 10topics;
- 
 
 // console.log(document.head);
 // console.log(document.documentElement);
@@ -70,36 +62,33 @@
 
 // console.log(document.body.childNodes);
 
-
-
-            /*** MOBILE EVENTSHANDLING ***/ 
+/*** MOBILE EVENTSHANDLING ***/
 
 // TOUCHSTART - HANDLING WILL GET STARTED WHEN WE TOUCH THE SCREEN
 // TOUCHMOVE - HANDLING WILL GET STARTED WHEN WE MOVING THE SCREEN
 // TOUCHEND - HANDLING WILL GET STARTED WHEN WE REMOVE THE ARM FROM SCREEN
-// TOUCHENTER - 
+// TOUCHENTER -
 // TOUCHLEAVE -
-// TOUCHCANCEL - 
+// TOUCHCANCEL -
 
 window.addEventListener("DOMContentLoaded", (e) => {
+  e.preventDefault();
+
+  const btn = document.querySelector("#btn");
+
+  btn.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    console.log("HELLO");
+  });
+
+  btn.addEventListener("touchmove", (event) => {
+    event.preventDefault();
+    console.log("MOVE");
+  });
+
+  btn.addEventListener("touchend", (e) => {
     e.preventDefault();
 
-    const btn = document.querySelector("#btn");
-
-    btn.addEventListener("touchstart", (e) => {
-        e.preventDefault();
-        console.log("HELLO");
-    });
-
-    btn.addEventListener("touchmove", (event) => {
-        event.preventDefault();
-        console.log("MOVE");
-    });
-
-    btn.addEventListener("touchend", (e) => {
-        e.preventDefault();
-
-        console.log("ENDED");
-    })
+    console.log("ENDED");
+  });
 });
-
