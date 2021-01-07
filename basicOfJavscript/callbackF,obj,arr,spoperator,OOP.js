@@ -65,8 +65,7 @@
 
 // console.log(Object.keys(vegetables).length);
 
-
-            /*** ARRAYS AND PSEUDOARRAYS!!! ***/
+/*** ARRAYS AND PSEUDOARRAYS!!! ***/
 // const arr = [ 11, 42, 83, 74, 55 ];
 // arr.sort(compareNum);
 // console.log(arr);
@@ -89,7 +88,6 @@
 //     console.log(arr[i]);
 // }
 
-
 // arr.forEach(function(item, i, arr) {
 //     console.log(`${i}: ${item} inside of the ${arr}`);
 // });
@@ -108,12 +106,10 @@
 // prod.sort();
 // console.log(ask);
 
-
 // const arr1 = ["Orif", "Ismailov", "Muhammadjo Og'li"];
 // console.log(arr1.sort());
 
-
-                    /*** SPREAD OPERATOR ***/
+/*** SPREAD OPERATOR ***/
 // let a = 5,
 //     b = a;
 // b += 5;
@@ -165,7 +161,7 @@
 //     a: 1,
 //     b: 2,
 //     c: 3,
-// }; 
+// };
 
 // const add = {
 //     d: 4,
@@ -180,7 +176,6 @@
 // clone.a = 12;
 // console.log(numbers);
 // console.log(clone);
-
 
 // const oldArr = ['a', 'b', 'c'];
 // const newArr = oldArr.slice();
@@ -209,7 +204,6 @@
 // newObj.three = "three";
 // console.log(newObj);
 
-
 /*** BASICS OF OOP AND PROTOTYPE-ORIENTED INHERITANCE ***/
 // const soldiers = {
 //     health: 100,
@@ -225,4 +219,3 @@
 
 // Object.setPrototypeOf(user, soldiers);
 // console.log(user.attackEnemy());
-
