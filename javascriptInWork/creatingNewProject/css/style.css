@@ -624,3 +624,16 @@ a {
         opacity: 1;
     }
 }
+
+.fade2 {
+  animation: fade2 1s;
+}
+
+@keyframes fade2 {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}
